@@ -44,7 +44,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: shegxy69/frontend:v1
+          image: shegxy69/frontend:v2
           ports:
           - containerPort: 8080
           readinessProbe:
