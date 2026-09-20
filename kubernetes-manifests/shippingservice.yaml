@@ -42,7 +42,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: shippingservice
+        image: shegxy69/shippingservice:v1
         ports:
         - containerPort: 50051
         env:
